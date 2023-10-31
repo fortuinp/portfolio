@@ -1,63 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Portfolio</title>
 </head>
+
 <body>
-    
-</body>
-<main class="container-fluid">
-      <section id="home" class="container">
-      <div class="row">
-          <div  class="col-2 vh-100" style="background-color:  #423933;" >
-               <div class="row">
-                <img src="https://i.postimg.cc/dQH9vw42/IMG-7521-removebg-preview-2.jpgg mt-3"  alt="logo">
-               </div>
-            
-          </div>
-          <div class="col-10 vh-100 fs-1 " style="background-color:#047474  ;">
-             <div class="row mt-5 mb-5"><h1 id="h1"> Hi,
-             <span>I'm Pinda Fortuin</span>
-             <span>an aspiring web developer</span></h1>
-            </div>
-          </div>
+
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testemonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-      </section>
+    </div>
+  </nav>
+
+   <main class="container-fluid">
+    <section id="home" class="container  vh-100">
+      <div class="row vh-100">
+        <div class="col-2 "></div>
+            <img class="img-fluid" src="https://i.postimg.cc/dQH9vw42/IMG-7521-removebg-preview-2.jpgg sm" alt="logo">
+        </div>
+        <div class="col-10 fs-1 " >
+          <div class="heading-wrapper">
+            <h1 id="h1"> Hi,
+              <span>I'm Pinda Fortuin</span>
+              <span>an aspiring web developer</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section> 
 
 
-      <section id="about"  class="container">
-     <div class="row vh-100 text-white fs-2  justify-content-center " style="background-color: #047474 ;">
-       <h2> About </h2>
-       <p class="text-b"> i am hjkmndbhvgjvklfkjnfbhdcjklekbhjklmdfbvhjkldefvbhfjfdchnfbhvbnfbhvbnefhbnefbhbefvhbeddvgfdbdvgbdvgbdvvbfvd</p>
-     </div>
-      </section>
+    <section id="about" class="container ">
+       <div class="row ">
+          <h2 class=" about-h1 mb-5">About</h2>
+       </div>
 
-      <section id="Education">
+      <div class="row text-white justify-content-center vh-100 m-0">
+        <div class="col-6 align-items-center">
+           <img src="https://i.postimg.cc/vB2HctQ3/image-1.jpg" alt="pic1">
+        </div>
+        <div class="col-6 justify-content-center align-items-center fs-1">
+           <p>kjhgfdfghjkjhgfdfxcgvhjkljhgfdghjk Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, officiis modi! Officia sunt, deserunt obcaecati repudiandae dignissimos dolorum impedit amet minima corporis a similique, accusantium quod culpa quam nisi maxime?</p>
+        </div>
 
-      </section>
+      </div>
+    </section>
 
-      <section id="Skills">
-    
-      </section>
+    <section class="container" id="Education">
+       <div class="row">
+              <div class="col-6">
 
-      <section id="Projects">
+              </div>
+              <div class="col-6">
 
-      </section>
+              </div>
+       </div>
+    </section>
 
-      <section id="Testimonials">
-      </section>
+    <section class="container" id="Skills">
 
-      <section id="Contact">
+    </section>
 
-      </section>
+    <section class="container" id="Projects">
+      <div class="row">
+        <div class="col-4"> <img src="https://i.postimg.cc/x1B9d6nt/Screenshot-2023-10-31-143132.png" alt="project"></div>
+        <div class="col-4"> <img src="https://i.postimg.cc/x1B9d6nt/Screenshot-2023-10-31-143132.png" alt="project"></div>
+        <div class="col-4"> <img src="https://i.postimg.cc/x1B9d6nt/Screenshot-2023-10-31-143132.png" alt="project"></div>
+        
+      </div>
+
+      <div class="row justify-content-center mt-5 d-flex">
+         <div class="col-4">
+         <img src="https://i.postimg.cc/x8QvVGXd/ppenew.png" alt="project">
+         <a href="#products"><button class="btn btn-secondary"> GitHub </button></a>
+         <a href="#products"><button class="btn btn-success"> Netlify</button></a>
+         </div>
+         <div class="col-4">+
+         <img src="https://i.postimg.cc/x8QvVGXd/ppenew.png" alt="project">
+         </div>
+      </div>
+
+    </section>
+
+    <section class="container" id="Testimonials">
+    </section>
+
+    <section class="container" id="Contact">
+
+    </section>
 
 
 
-</main>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
 </html>
 <!--https://i.postimg.cc/qvL7yZPL/res.jpg-->
