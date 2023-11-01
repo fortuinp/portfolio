@@ -12,9 +12,14 @@ body{
 section{
     
           justify-content: center;
+          margin: 2rem;
           align-items: center;
           text-align: center;
-          background: linear-gradient(120deg, #ca7432, #449aad);
+          background: linear-gradient(120deg,
+           
+           #BCAB79 ,
+           #5795A7
+           )
         
         
 }
@@ -24,10 +29,12 @@ img[alt="logo"]{
 
 }
 img[alt="pic1"]{
-    width: 19rem;
+    width: 19rem;}
     
-    ;
+img[alt="project"]{
+  width: 20rem;
 }
+
 /* Display -> flex */
 :is(.heading-wrapper) {
     display: flex;
@@ -45,3 +52,9 @@ h2{
 }
 .about-h1{
     font-size: 70px;}
+
+#Testimonials :is(.card) {
+        width: 14rem;
+        height: fit-content;
+    }
+    
