@@ -1,28 +1,31 @@
 *,
 * ::before,
 *::after{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body{
     text-align: center;
+    display: grid;
+    grid-template-rows: auto minmax(100%, 100vh) auto;
     
 }
-section{
-    
-          justify-content: center;
-          margin: 2rem;
-          align-items: center;
-          text-align: center;
-          background: linear-gradient(120deg,
-           
-           #BCAB79 ,
-           #5795A7
-           )
-        
-        
+/* all section*/
+section {
+    scroll-margin-block: 3rem;
 }
+:is(#home, #education,#skills,#testimonials){
+    background: #BCAB79;
+}
+:is(#about,#projects,#contact){
+    background:#997950 ;
+}
+:is(){
+    justify-content: center;
+    align-items: center;        
+}
+    /* margin: 2rem; */
 img[alt="logo"]{
     width:20rem;
     height:12rem;
@@ -53,8 +56,24 @@ h2{
 .about-h1{
     font-size: 70px;}
 
-#Testimonials :is(.card) {
+#testimonials :is(.card) {
         width: 14rem;
         height: fit-content;
     }
-    
+img[alt="project"]{
+        width: 13rem;
+        height: 14rem;
+      }
+#edu{
+    color:#492000 ;
+    ;
+}
+.submit{
+    width: 150px;
+    margin-left: 50px;
+}
+#texta{
+    width: 23.1rem ;
+    height: 10rem ;
+}
+
