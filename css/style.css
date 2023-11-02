@@ -77,3 +77,9 @@ img[alt="project"]{
     height: 10rem ;
 }
 
+#nav{
+    position: fixed;
+    top: 0px;
+    /* LOL */
+    z-index: 1000;
+}
