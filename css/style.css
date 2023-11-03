@@ -50,6 +50,7 @@ img[alt="proje"]{
 }
 #proj{
     width: 13rem;
+    color:#2980b9;
 }
 
 
@@ -86,6 +87,9 @@ img[alt="testimonial"]{
 }
 .pinda{
     background-color: #D6C6B1;
+    color: #468079;
+    font-weight: bold;
+    font-size: large;
 }
 
 .submit{
@@ -232,7 +236,7 @@ body {
         align-items: center;        
     }
     .card{
-        background:#468079;
+        background:#bbb;
         height:85% ;
         width: 100%;
         
@@ -242,4 +246,8 @@ body {
         height: auto;
         width: 200px;
     }
+}
+#skl{
+    font-size: 3rem;
+   color:#468079;
 }
