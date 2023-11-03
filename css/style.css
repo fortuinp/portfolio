@@ -77,16 +77,15 @@ img[alt="testimonial"]{
 #testimonials :is(.card) {
         width: 15rem;
         height: fit-content;
-        background-color:blue;
-        background: #bbb;
+        background: #E8DED1;
     }
 /*Projects*/
 #edu{
     color:#492000 ;
-    ;
+    background-color: #D1C0A8;
 }
 .pinda{
-    background-color: #2980b9;
+    background-color: #D6C6B1;
 }
 
 .submit{
@@ -192,14 +191,19 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  
+  #skillcard{
+    background-color: #468079 ;
+  }
+  #skillcard2{
+    background-color: #bbb ;}
+
   .flip-card-front {
     background-color: #bbb;
     color: black;
   }
   
   .flip-card-back {
-    background-color: #2980b9;
+    background-color: #468079;
     color: white;
     transform: rotateY(180deg);
   }
@@ -228,7 +232,7 @@ body {
         align-items: center;        
     }
     .card{
-        background:#2980b9;
+        background:#468079;
         height:85% ;
         width: 100%;
         
