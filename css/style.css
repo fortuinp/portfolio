@@ -13,13 +13,17 @@ body{
 }
 /* all section*/
 section {
-    scroll-margin-block: 3rem;
+    scroll-margin-block: 6rem;
 }
 :is(#home, #education,#skills,#testimonials){
-    background: #BCAB79;
+    background: #D6C6B1 ;
 }
+/*body :is(#home, #education,#skills,#testimonials){
+    background: #BCAB79;
+    width: 100%;
+}*/
 :is(#about,#projects,#contact){
-    background:#997950 ;
+    background:#D1C0A8;
 }
 :is(){
     justify-content: center;
@@ -38,12 +42,13 @@ img[alt="project"]{
   width: 20rem;
 }
 
-/* Display -> flex */
+
+/* Display -> flex height:;*/
 :is(.heading-wrapper) {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
 }
 #h1 span{
     display: block;
@@ -77,9 +82,37 @@ img[alt="project"]{
     height: 10rem ;
 }
 
+/*nav*/
 #nav{
     position: fixed;
     top: 0px;
-    /* LOL */
-    z-index: 1000;
+    /* LOL 
+    z-index: 1000;*/
+    justify-content: space-between;
+    background: #E8DED1;
+    color: #492000;
+    width:100%;
+}
+a{
+    transition: all .3s;
+}
+.navbar a:is(:hover, :focus) {
+    text-decoration: underline;
+    scale: 1.2;
+    background: #efe2bb;}
+
+img[alt="logo"]{
+        width: 5rem;
+        height: 5rem;
+}
+
+footer{
+    background: #492000;
+    height: max-content;color: #efe2bb;
+    }
+    
+#icon{
+    
+    size: 40rem;
+    color:#E8DED1;
 }
