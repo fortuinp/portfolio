@@ -43,8 +43,13 @@ img[alt="logo"]{
 img[alt="pic1"]{
     width: 19rem;}
     
-img[alt="project"]{
-  width: 20rem;
+/*Projects*/
+img[alt="proje"]{
+  width:10rem;
+  height: 10rem;
+}
+#proj{
+    width: 13rem;
 }
 
 
@@ -63,29 +68,36 @@ span{
 .about-h1{
     font-size: 70px;}
     
+/*testimonial*/
 img[alt="testimonial"]{
-    width:13rem ;
-    height: 10rem;
+    width:15rem ;
+    height: 15rem;
 }
 
 #testimonials :is(.card) {
-        width: 13rem;
+        width: 15rem;
         height: fit-content;
         background-color:blue;
         background: #bbb;
     }
-img[alt="project"]{
-        width: 13rem;
-        height: 14rem;
-      }
+/*Projects*/
 #edu{
     color:#492000 ;
     ;
 }
+.pinda{
+    background-color: #2980b9;
+}
+
 .submit{
-    width: 150px;
-    margin-left: 50px;
+    width: 365px;
+    height: 40px;
+    border-radius: 6px;
+     margin-bottom: 10px; 
     background-color: #468079;
+}
+.submit:hover{
+    background-color: #2980b9;
 }
 #texta{
     width: 23.1rem ;
@@ -105,7 +117,8 @@ img[alt="project"]{
     justify-content: space-between;
     background: #E8DED1;
     color: #492000;
-    width:100%;
+    width:87%;
+    margin-left: 98px;
 }
 a{
     transition: all .3s;
@@ -124,6 +137,9 @@ footer{
     background: #492000;
     /* height: max-content; */
     color: #efe2bb;
+    padding: 40px;
+    width: 87%;
+    margin-left: 98px;
     }
     
 #icon{
@@ -136,11 +152,22 @@ footer{
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
+  #texta{
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  #text{
+    height: 50px;
+    width: 182px;
+    border-radius: 10px;
+  }
   
   .flip-card {
     background-color: transparent;
-    width: 295px;
-    height: 300px;
+    width: 285px;
+    height: 295px;
     perspective: 1000px;
   }
   
@@ -200,3 +227,15 @@ body {
         justify-content: center;
         align-items: center;        
     }
+    .card{
+        background:#2980b9;
+        height:85% ;
+        width: 100%;
+        
+    } 
+@media all and (max-width:720px){
+    img[alt='pic1']{
+        height: auto;
+        width: 200px;
+    }
+}
